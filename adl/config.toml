@@ -22,7 +22,9 @@ paginate = 10
 [[menu.main]]
     name = "Products"
     url = "/products"
+    identifier = "products"
     weight = 2
+
 
 
 [[menu.main]]
@@ -36,10 +38,6 @@ paginate = 10
     url = "/evident"
     weight = 4
 
-[[menu.main]]
-    name = "Contact"
-    url  = "/contact/"
-    weight = 5
 
 # Top bar social links menu
 
@@ -94,24 +92,22 @@ paginate = 10
     # Enable the contact form by entering your Formspree.io email
     email = "your@email.com"
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    about_us = "<p>We are Aura Dental Labs, we make great teeth things.</p>"
+    copyright = "Copyright (c) 2017, Aura Dental Labs; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
     logo = "img/logo.png"
-    address = """<p><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
+    address = """<p><strong>Aura Dental Labs</strong>
+        <br>123 Fake Street
+        <br>Boston, MA
         <br>
-        <strong>Great Britain</strong>
+        <strong>United States of America</strong>
       </p>
       """
-    latitude = "-12.043333"
-    longitude = "-77.028333"
+    latitude = "42.3601"
+    longitude = "71.0589"
 
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
@@ -149,10 +145,10 @@ paginate = 10
     # at 'exampleSite/data/testimonials'.
     # For more informtion take a look at the README.
     title = "Testimonials"
-    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+    subtitle = "We do our best to make sure our customers love us, take a look at what they have to say!"
 
 [params.see_more]
-    enable = true
+    enable = false
     icon = "fa fa-file-code-o"
     title = "Do you want to see more?"
     subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
@@ -160,7 +156,7 @@ paginate = 10
     link_text = "Check other homepages"
 
 [params.clients]
-    enable = true
+    enable = false
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
@@ -168,6 +164,6 @@ paginate = 10
     subtitle = ""
 
 [params.recent_posts]
-    enable = true
+    enable = false
     title = "From our blog"
     subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."

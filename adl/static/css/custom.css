@@ -100,6 +100,7 @@ div.section {
 .heading h5 {
   display: inline-block;
   border-bottom: solid 5px #38a7bb;
+  color: #eee;
   line-height: 1.1;
   margin-bottom: 0;
   padding-bottom: 10px;
@@ -347,6 +348,7 @@ ul.list-style-none {
 }
 .navbar ul.nav > li > a {
   text-transform: uppercase;
+  text-decoration: none;
   font-weight: bold;
   letter-spacing: 0.08em;
   border-top: solid 5px transparent;
@@ -1296,7 +1298,7 @@ fieldset[disabled] .btn-template-primary.active {
 .testimonials .item {
   list-style-type: none;
   margin: 0 5px;
-  background: #fff;
+  background: #2b4141;
   padding-bottom: 60px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1323,7 +1325,7 @@ fieldset[disabled] .btn-template-primary.active {
   clear: both;
 }
 .testimonials .item .testimonial .text {
-  color: #999999;
+  color: #eee;
   margin-bottom: 40px;
 }
 .testimonials .item .testimonial .bottom {
@@ -1354,9 +1356,13 @@ fieldset[disabled] .btn-template-primary.active {
   letter-spacing: 0.08em;
 }
 .testimonials .item .testimonial .name-picture p {
-  color: #999999;
+  color: #eee;
   margin: 0;
   font-size: 12px;
+}
+
+.testimonials h5 {
+    color: #eee;
 }
 .testimonials .item .testimonial .name-picture img {
   float: right;
@@ -1778,7 +1784,7 @@ fieldset[disabled] .btn-template-primary.active {
   border: none;
 }
 #heading-breadcrumbs {
-  background: url('../img/texture-bw.png') center center repeat;
+  background: #C2AF91;
   padding: 20px 0;
   margin-bottom: 40px;
 }
@@ -1807,7 +1813,7 @@ fieldset[disabled] .btn-template-primary.active {
   padding: 60px 0;
 }
 .bar.background-pentagon {
-  background: url('../img/texture-bw.png') center center repeat;
+  background: #5A7684;
   border-top: solid 1px #999999;
   border-bottom: solid 1px #999999;
 }
@@ -3149,7 +3155,7 @@ fieldset[disabled] .btn-template-primary.active {
   background-color: #38a7bb;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #888888;
+  background-color: #38a7bb;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
@@ -3434,6 +3440,7 @@ p {
 .lead {
   margin-bottom: 20px;
   font-size: 18px;
+  color: #eee;
 }
 @media (min-width: 768px) {
   .lead {
@@ -3606,4 +3613,25 @@ a.list-group-item.active > .badge,
 .yamm .dropdown.yamm-fw .dropdown-menu {
   left: 15px;
   right: 15px;
+}
+
+.products-nav {
+    border-right: 1px #2b4141 solid;
+    margin-bottom: 30px;
+}
+
+.product-single {
+    font-size: 2.2em;
+}
+
+.product-link {
+    cursor: pointer;
+}
+
+.product-desc {
+    display: none;
+}
+
+.product-container {
+    margin-bottom: 30px;
 }

@@ -133,6 +133,47 @@ div.section {
   border: solid 1px #fff;
   font-size: 20px;
 }
+.product-wrapper {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  color: #fff;
+  line-height: 80px;
+  border-radius: 100px;
+  border: solid 1px #fff;
+  font-size: 20px;
+}
+
+.overlay {
+    position: absolute;
+    top: 10px;
+    background: #93d4cf;
+    width: 200px;
+    height: 200px;
+    color: #2b4141;
+    line-height: 200px;
+    border-radius: 100px;
+    font-size: 26px;
+    font-weight: bold;
+    vertical-align: middle;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: 1s;
+ 
+}
+.overlay:hover {
+    opacity: .8;
+}
+
+.product-img {
+    display: table-cell;
+    vertical-align: middle;
+      width: 200px;
+      height: 200px;
+}
+
+
+
 .icon.icon-lg {
   font-size: 30px;
   border-width: 2px;
@@ -306,7 +347,6 @@ ul.list-style-none {
 }
 .navbar ul.nav > li > a {
   text-transform: uppercase;
-  text-decoration: underline;
   font-weight: bold;
   letter-spacing: 0.08em;
   border-top: solid 5px transparent;
@@ -1155,7 +1195,7 @@ fieldset[disabled] .btn-template-primary.active {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #5a7684;
+  background: #2b4141;
   opacity: 0.9;
   filter: alpha(opacity=90);
 }
@@ -1432,7 +1472,19 @@ fieldset[disabled] .btn-template-primary.active {
 .box-simple {
   text-align: center;
   margin-bottom: 40px;
+  padding: 10px;
 }
+
+.box-simple .product-wrapper {
+  color: #38a7bb;
+  background: #5A7684;
+  border-color: #38a7bb;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+
 .box-simple .icon {
   color: #38a7bb;
   border-color: #38a7bb;
@@ -1726,7 +1778,7 @@ fieldset[disabled] .btn-template-primary.active {
   border: none;
 }
 #heading-breadcrumbs {
-  background: url('../img/texture-bw.png') center center repeat;
+  background: #c2af91;
   padding: 20px 0;
   margin-bottom: 40px;
 }
@@ -1755,7 +1807,7 @@ fieldset[disabled] .btn-template-primary.active {
   padding: 60px 0;
 }
 .bar.background-pentagon {
-  background: url('../img/texture-bw.png') center center repeat;
+  background: #c2af91;
   border-top: solid 1px #999999;
   border-bottom: solid 1px #999999;
 }
@@ -2972,8 +3024,8 @@ fieldset[disabled] .btn-template-primary.active {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 21px;
-    padding-bottom: 21px;
+    padding-top: 35px;
+    padding-bottom: 35px;
   }
   .navbar-nav.navbar-right:last-child {
     margin-right: -15px;
@@ -3075,7 +3127,7 @@ fieldset[disabled] .btn-template-primary.active {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #555555;
-  background-color: #80cbd9;
+  background-color: #93d4cf;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,

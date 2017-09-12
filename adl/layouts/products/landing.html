@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+{{ if gt (len .Site.Data.testimonials) 0 }}
+<html lang="{{ .Site.LanguageCode }}">
+
+  {{ partial "head.html" . }}
+
+  <body>
+
+    <div id="all">
+        <header>
+
+          {{ partial "nav.html" . }}
+
+        </header>
+
+        {{ partial "breadcrumbs.html" . }}
+
+        <div id="content">
+            {{ if isset .Params "id" }}
+
+              {{ partial .Params.id . }}
+
+            {{ else }}
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="products-nav">
+                        {{ range .Site.Data.products }}
+                            <div class="product-single">
+                                <a class="product-link" id="product-{{ .weight }}" onclick="$('[id^=product-desc-]').hide(); $('#product-desc-{{.weight}}').show()">
+                                    {{ .name }}
+                                </a>
+                            </div>
+                        {{ end }}
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="product-container">
+                            {{ range .Site.Data.products }}
+                            <div class="product-desc" id="product-desc-{{ .weight }}">
+                                <h2> {{ .name }} </h2>
+                                <p>{{ .text | markdownify }}</p>
+                            </div>
+                            {{ end }}
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- /.row -->
+
+            </div>
+            <!-- /.container -->
+
+            {{ end }}
+        </div>
+        <!-- /#content -->
+
+        {{ partial "footer.html" . }}
+
+    </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+
+  </body>
+</html>
+{{ end }}
