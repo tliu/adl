@@ -15,8 +15,8 @@ paginate = 10
 # Main menu
 
 [[menu.main]]
-    name = "About"
-    url  = "/about"
+    name = "Our Promise"
+    url  = "/promise"
     weight = 1
 
 [[menu.main]]
@@ -100,8 +100,9 @@ paginate = 10
 
     logo = "img/logo.png"
     address = """<p><strong>Aura Dental Labs</strong>
-        <br>123 Fake Street
-        <br>Boston, MA
+        <br>144 Merrimack St. Suite 400
+        <br>Lowell, MA 01852
+        <br><a href="mailto: info@auradental.us">info@auradental.us</a>
         <br>
         <strong>United States of America</strong>
       </p>
@@ -140,7 +141,7 @@ paginate = 10
     # For more informtion take a look at the README.
 
 [params.testimonials]
-    enable = true
+    enable = false
     # All testimonials are defined in their own files. You can find example items
     # at 'exampleSite/data/testimonials'.
     # For more informtion take a look at the README.

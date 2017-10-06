@@ -1,8 +1,7 @@
 weight: 4
-title: "Yet Another Carousel Item"
+title: "Proudly Made in the USA"
 description: >
   <ul class="list-style-none">
-    <li>for when your tooth is bad</li>
-    <li>we make better ones than the bad ones</li>
+    <li>all products are made in house in our lab in Lowell, Massachusetts</li>
   </ul>
-image: "img/carousel/tooth.png"
+image: "img/carousel/madeinusa.png"
