@@ -1,4 +1,4 @@
-baseurl = "https://example.org"
+baseurl = "http://auradental.us/"
 title = "Aura Dental Labs"
 theme = "hugo-universal-theme"
 languageCode = "en-us"
@@ -25,6 +25,28 @@ paginate = 10
     identifier = "products"
     weight = 2
 
+[[menu.main]]
+    name = "Crowns and Bridges"
+    url = "/products#crowns"
+    parent = "products"
+    weight = 1
+
+[[menu.main]]
+    name = "Implants"
+    url = "/products#implants"
+    parent = "products"
+    weight = 2
+
+[[menu.main]]
+    name = "Full Arch Restorations"
+    url = "/products#fullarch"
+    parent = "products"
+    weight = 3
+
+
+
+
+
 
 
 [[menu.main]]
@@ -34,9 +56,17 @@ paginate = 10
 
 
 [[menu.main]]
-    name = "Evident Login"
-    url = "/evident"
+    name = "Contact"
+    url = "/contact"
     weight = 4
+
+
+
+
+[[menu.main]]
+    name = "DDX Login"
+    url = "https://803426.ddxdental.com/offer"
+    weight = 5
 
 
 # Top bar social links menu
@@ -68,11 +98,7 @@ paginate = 10
 [params]
     viewMorePostLink = "/blog/"
     author = "DevCows"
-    defaultKeywords = ["devows", "hugo", "go"]
-    defaultDescription = "Site template made by devcows using hugo"
 
-    # Google Maps API key (if not set will default to not passing a key.)
-    googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "default"
@@ -90,7 +116,7 @@ paginate = 10
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io email
-    email = "your@email.com"
+    email = "tmkliu@email.com"
 
     about_us = "<p>We are Aura Dental Labs, we make great teeth things.</p>"
     copyright = "Copyright (c) 2017, Aura Dental Labs; all rights reserved."
@@ -107,8 +133,9 @@ paginate = 10
         <strong>United States of America</strong>
       </p>
       """
-    latitude = "42.3601"
-    longitude = "71.0589"
+
+    latitude = "-42.645693"
+    longitude = "-71.310169"
 
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"

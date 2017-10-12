@@ -1,5 +1,44 @@
 weight: 2
 name: "Implants"
 link: "/products/2"
-img: "img/implant.jpg"
-text: "We fabricate our implant restorations with unparalleled fit and quality by integrating titanium and zirconia hybrid custom abutments into our design."
+img: "/img/implant.png"
+text: "We fabricate our implant restorations with unparalleled fit and quality by integrating titanium and zirconia hybrid custom abutments into our design.
+<br>
+<div class='col-md-12'>
+<div class='heading-sm'>
+<h4>
+Custom Abutments
+</h4>
+</div>
+<div class='col-sm-4'>
+    Titanium
+    <img src='/img/products/titanium.png'></img>
+</div>
+<div class='col-sm-4'>
+    Zirconia Hybrid
+    <img src='/img/products/zirconiahybrid.png'></img>
+</div>
+<div class='col-sm-4'>
+    Gold Hue
+    <img src='/img/products/goldhue.png'></img>
+</div>
+    
+</div>
+<div class='col-md-12'>
+ <div class='heading-sm'>
+<h4>
+Izir Screw Retained Crowns
+</h4>
+
+<div class='col-sm-12'>
+    <img src='/img/products/screw.png'></img>
+</div>
+ 
+</div>
+</div>   
+    
+    
+    
+    
+"
+

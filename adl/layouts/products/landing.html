@@ -25,22 +25,30 @@
             <div class="container">
 
                 <div class="row">
-                    <div class="col-md-3">
-                        <div class="products-nav">
+                    <div class="col-md-12">
                         {{ range .Site.Data.products }}
-                            <div class="product-single">
+                            <div class="col-sm-4">
                                 <a class="product-link" id="product-{{ .weight }}" onclick="$('[id^=product-desc-]').hide(); $('#product-desc-{{.weight}}').show()">
+                            <div class="product-single">
+                                <div class="product-nav-img">
+                                        <img src="{{ .img }}"></img>
+                                </div>
+                                <div class="overlay-sq">Learn more</div>
+                                <div class="product-name">
                                     {{ .name }}
+                                </div>
+                            </div>
                                 </a>
                             </div>
                         {{ end }}
-                        </div>
                     </div>
-                    <div class="col-md-9">
+                    <div class="col-md-12">
                         <div class="product-container">
                             {{ range .Site.Data.products }}
                             <div class="product-desc" id="product-desc-{{ .weight }}">
-                                <h2> {{ .name }} </h2>
+                                <div class="heading">
+                                    <h2> {{ .name }} </h2>
+                                </div>
                                 <p>{{ .text | markdownify }}</p>
                             </div>
                             {{ end }}

@@ -3,10 +3,13 @@ title = "Our Promise"
 description = "Our Aura Dental Labs Promise"
 keywords = ["About"]
 +++
+<div class="heading-left">
+    <h3>
+    Our Core Values
+    </h3>
 
-<h4>
+</div>
 Our daily operations at Aura Dental Laboratory revolve around our three core values: 
-
 <ol>
     <li>To produce consistently high quality restorations.</li>
     <li>To excel in client satisfaction.</li>
@@ -22,7 +25,6 @@ To further ensure the quality of our restorations, we only use genuine and FDA a
 Nothing makes us happier than to see our clients satisfied with our restorations.  We look forward to working together with you on your next case! 
 
 
-</h3>
 <br>
 <br>
 <br>

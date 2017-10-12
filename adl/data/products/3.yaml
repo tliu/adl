@@ -1,5 +1,38 @@
 weight: 3
 name: "Full Arch Restorations"
 link: "/products/2"
-img: "/img/full_arch.jpg"
-text: "By working closely together with you, we are able to calibrate each case by implementing careful planning, thorough designing and precise fabrication creating a quality restoration that is second to none."
+img: "/img/full_arch.png"
+text: "By working closely together with you, we are able to calibrate each case by implementing careful planning, thorough designing and precise fabrication creating a quality restoration that is second to none.
+    
+    
+<div class='col-md-12'>
+    <div class='heading-sm'>
+    <h4>
+        Izir Screw Retained Implant Bridge
+    </h4>
+    </div>
+    Compatible with:
+    <ul>
+        <li>Nobel Replace 4.3 & 5.0</li>
+        <li>Nobel Active 3.5 & 4.4/5.0</li>
+        <li>Biomet 3i Certain 3.4 & 4.1</li>
+        <li>Straumann Bone Level 3.3 & 4.1/4.8</li>
+        <li>Straumann SynOcta 4.8 RN & 6.6 WN</li>
+        <li>Zimmer Tapered Screw-Vent 3.5 & 4.5</li>
+        <li>Astra Tech OsseoSpeed 3.5/4.0 & 4.5/5.0</li>
+        <li>Dentsply- Friadent Frialit/Xive 3.4, 3.8 & 4.</li>
+
+    </ul>
+    <div class='arch-img'>
+    <img src='/img/products/full_arch1.jpg'></img>
+    </div>
+    <div class='arch-img'>
+    <img src='/img/products/full_arch2.jpg'></img>
+    </div>
+    <div class='arch-img'>
+    <img src='/img/products/full_arch3.jpg'></img>
+    </div>
+
+</div>
+"
+
