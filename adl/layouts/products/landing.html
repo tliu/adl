@@ -1,5 +1,27 @@
 <!DOCTYPE html>
 {{ if gt (len .Site.Data.testimonials) 0 }}
+<script>
+    window.onload = function(evt) {
+        prod = window.location.hash.substring(1);
+        handleNav(prod);
+        $('[id^=product-desc-]').hide(); 
+        $('#product-desc-' + prod).show();
+    }
+
+    function handleNav(weight) {
+        $('[id^=product-desc-]').hide(); 
+        $('#product-desc-' + weight).show();
+        if($(window).width() < 700) { 
+            var element_to_scroll_to = document.getElementById('product-desc-' + weight);
+            element_to_scroll_to.scrollIntoView();
+
+            var scrolledY = window.scrollY;
+            if(scrolledY){
+                window.scrollTo(0, scrolledY - 195);
+            }
+        }
+    }
+</script>
 <html lang="{{ .Site.LanguageCode }}">
 
   {{ partial "head.html" . }}
@@ -25,11 +47,11 @@
             <div class="container">
 
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 product-centering">
                         {{ range .Site.Data.products }}
                             <div class="col-sm-4">
-                                <a class="product-link" id="product-{{ .weight }}" onclick="$('[id^=product-desc-]').hide(); $('#product-desc-{{.weight}}').show()">
-                            <div class="product-single">
+                                <a class="product-link" id="product-{{ .weight }}" onclick="handleNav({{.weight}});">
+                                    <div class="product-single">
                                 <div class="product-nav-img">
                                         <img src="{{ .img }}"></img>
                                 </div>

@@ -10,6 +10,7 @@ text: "We fabricate our implant restorations with unparalleled fit and quality b
 Custom Abutments
 </h4>
 </div>
+<div class='product-container'>
 <div class='col-sm-4'>
     Titanium
     <img src='/img/products/titanium.png'></img>
@@ -19,24 +20,43 @@ Custom Abutments
     <img src='/img/products/zirconiahybrid.png'></img>
 </div>
 <div class='col-sm-4'>
-    Gold Hue
+    Anodized Titanium
     <img src='/img/products/goldhue.png'></img>
+</div>
 </div>
     
 </div>
-<div class='col-md-12'>
+<div class='col-md-12' style='margin-top: 48px'>
  <div class='heading-sm'>
 <h4>
-Izir Screw Retained Crowns
+Aura Screw Retained Zirconia Crowns and Bridges
 </h4>
-
-<div class='col-sm-12'>
+</div>
+</div>
+<div class='col-sm-6'>
     <img src='/img/products/screw.png'></img>
 </div>
  
+<div class='col-sm-6'>
+    <img src='/img/products/bridge.jpg'></img>
 </div>
-</div>   
-    
+
+ <div class='col-md-12' style='margin-top: 48px'>
+ <div class='heading-sm'>
+<h4>
+Aura Cemented Zirconia Crowns and Bridges
+</h4>
+</div>
+</div>
+<div class='col-sm-6'>
+    <img src='/img/products/screw.png'></img>
+</div>
+ 
+<div class='col-sm-6'>
+    <img src='/img/products/bridge.jpg'></img>
+</div>
+
+       
     
     
     

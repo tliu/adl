@@ -1,4 +1,5 @@
 baseurl = "http://auradental.us/"
+#baseurl = "192.168.1.18"
 title = "Aura Dental Labs"
 theme = "hugo-universal-theme"
 languageCode = "en-us"
@@ -27,19 +28,19 @@ paginate = 10
 
 [[menu.main]]
     name = "Crowns and Bridges"
-    url = "/products#crowns"
+    url = "/products#1"
     parent = "products"
     weight = 1
 
 [[menu.main]]
     name = "Implants"
-    url = "/products#implants"
+    url = "/products#2"
     parent = "products"
     weight = 2
 
 [[menu.main]]
     name = "Full Arch Restorations"
-    url = "/products#fullarch"
+    url = "/products#3"
     parent = "products"
     weight = 3
 
@@ -65,7 +66,7 @@ paginate = 10
 
 [[menu.main]]
     name = "DDX Login"
-    url = "https://803426.ddxdental.com/offer"
+    url = "https://803426.ddxdental.com/cases/new"
     weight = 5
 
 
@@ -116,7 +117,7 @@ paginate = 10
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io email
-    email = "tmkliu@email.com"
+    email = "info@auradental.us"
 
     about_us = "<p>We are Aura Dental Labs, we make great teeth things.</p>"
     copyright = "Copyright (c) 2017, Aura Dental Labs; all rights reserved."
