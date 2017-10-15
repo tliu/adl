@@ -1,8 +1,20 @@
 weight: 1
-title: "50% off first 2 cases!"
-description: >
+title: 
+description: 
+    <div class="circ-50">
+        <div class="big-50">
+        50%
+        </div>
+        <div class="ad-off">
+        off
+        </div>
+        <div class="ad-two">
+        first 2 cases
+        </div>
+    </div>
   <ul class="list-style-none">
-  <li>For new clients -- send us a case today!</li>
+  <li style="margin-top:20px;font-size:43px">For new clients</li>
+  <li>up to three units only</li>
   </ul>
 image: "img/carousel/ups.png"
 link: "/cases"

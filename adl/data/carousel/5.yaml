@@ -1,9 +1,9 @@
-weight: 4
+weight: 5
 title: "Digital Dental Exchange"
 description: >
   <ul class="list-style-none">
     <li>Sign up with DDX to start sending us cases immediately!</li>
-    <li>Using DDX facilitates the workflow and lets you check the progress of your cases instantly!</li>
+    <li>Using DDX facilitates the workflow and lets you send digital STL files, track the progress of your cases, and pay your invoices instantly!</li>
   </ul>
 image: "img/carousel/ddx.png"
 link: "https://803426.ddxdental.com/offer"

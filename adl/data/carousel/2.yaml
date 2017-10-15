@@ -1,8 +1,9 @@
-weight: 1
+weight: 2
 title: "Lifetime Guarantee"
 description: >
   <ul class="list-style-none">
   <li>If you are not completely satisfied with the quality of our work, just send it back and we will remake it absolutely free of charge!</li>
+  <li style="font-size:12px"><a href="/promise#remake">*remake policy</a></li>
   </ul>
 image: "img/carousel/cdt.png"
 
