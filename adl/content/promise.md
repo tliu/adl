@@ -1,6 +1,6 @@
 +++
 title = "Our Promise"
-description = "Our Aura Dental Labs Promise"
+description = "Our Aura Dental Lab Promise"
 keywords = ["About"]
 +++
 <div class="heading-left">
@@ -10,7 +10,7 @@ keywords = ["About"]
 
 </div>
 <div>
-Our daily operations at Aura Dental Laboratory revolve around our three core values: 
+Our daily operations at Aura Dental Lab revolve around our three core values: 
 <ul>
     <li>To produce consistently high quality restorations.</li>
     <li>To excel in client satisfaction.</li>
@@ -48,8 +48,24 @@ Our products are 100% lifetime guaranteed, however we reserve the right to charg
 
 </div>
 
+</div>
+
+<div id='shipping'>
+
+<div class="heading-left">
+    <h3>
+    Shipping Policy
+    </h3>
 
 </div>
+
+Free shipping applies to one inbound and one outbound shipping per case. We will apply a charge of $15 for expedited shipping. Shipping charges can not be refunded. We are not responsible for content damaged during shipping process. 
+
+</div>
+
+
+
+
 <div id='termsandconditions'>
 
 <div class="heading-left">

@@ -9,12 +9,11 @@ description:
         off
         </div>
         <div class="ad-two">
-        first 2 cases
+        first 2 crowns
         </div>
     </div>
   <ul class="list-style-none">
   <li style="margin-top:20px;font-size:43px">For new clients</li>
-  <li>up to three units only</li>
   </ul>
 image: "img/carousel/ups.png"
 link: "/cases"
