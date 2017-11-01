@@ -1,7 +1,9 @@
 weight: 4
-title: "Green dental lab"
+title: "We are a green lab!"
 description: >
   <ul class="list-style-none">
-    <li>reduce waste</li>
+    <li>using digital technology,</li>
+    <li>we reduce material waste</li>
+    <li>and our carbon footprint</li>
   </ul>
-image: "img/carousel/madeinusa.png"
+image: "img/carousel/green.png"

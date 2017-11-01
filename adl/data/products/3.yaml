@@ -27,12 +27,8 @@ text: "By working closely together with you, we are able to calibrate each case 
     </ul>
     <div class='arch-img'>
     <img src='/img/products/full_arch1.jpg'></img>
-    </div>
-    <div class='arch-img'>
-    <img src='/img/products/full_arch2.jpg'></img>
-    </div>
-    <div class='arch-img'>
-    <img src='/img/products/full_arch3.jpg'></img>
+    <img src='/img/products/full_arch2.png'></img>
+    <img src='/img/products/full_arch3.png'></img>
     </div>
 
 </div>

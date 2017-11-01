@@ -1,5 +1,27 @@
 <!DOCTYPE html>
 
+<script>
+    window.onload = function(evt) {
+        prod = window.location.hash.substring(1);
+        handleNav(prod);
+        $('[id^=product-desc-]').hide(); 
+        $('#product-desc-' + prod).show();
+    }
+
+    function handleNav(weight) {
+        $('[id^=product-desc-]').hide(); 
+        $('#product-desc-' + weight).show();
+        if($(window).width() < 700) { 
+            var element_to_scroll_to = document.getElementById('product-desc-' + weight);
+            element_to_scroll_to.scrollIntoView();
+
+            var scrolledY = window.scrollY;
+            if(scrolledY){
+                window.scrollTo(0, scrolledY - 195);
+            }
+        }
+    }
+</script>
 <html lang="en-us">
 
   <head>
@@ -28,6 +50,7 @@
 
   
   <link href="http://auradental.us/css/animate.css" rel="stylesheet">
+  <link href="http://auradental.us/css/bootstrap-dropdownhover.min.css" rel="stylesheet">
 
   
   
@@ -70,7 +93,8 @@
     <div id="all">
         <header>
 
-          <div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
+          
+<div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
 
     <div class="navbar navbar-default yamm" role="navigation" id="navbar">
 
@@ -101,14 +125,14 @@
                   
                   <li class="dropdown">
                     
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+                      <a href="#" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false" data-hover="dropdown" data-animations="fadeIn">Products <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                       
-                        <li><a href="/products#crowns">Crowns and Bridges</a></li>
+                        <li><a href="/products#1">Crowns and Bridges</a></li>
                       
-                        <li><a href="/products#implants">Implants</a></li>
+                        <li><a href="/products#2">Implants</a></li>
                       
-                        <li><a href="/products#fullarch">Full Arch Restorations</a></li>
+                        <li><a href="/products#3">Full Arch Restorations</a></li>
                       
                     </ul>
                     
@@ -128,7 +152,7 @@
                   
                   <li class="dropdown">
                     
-                    <a href="https://803426.ddxdental.com/offer">DDX Login</a>
+                    <a href="https://803426.ddxdental.com/cases/new">DDX Login</a>
                     
                   </li>
                   
@@ -180,11 +204,11 @@
             <div class="container">
 
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 product-centering">
                         
                             <div class="col-sm-4">
-                                <a class="product-link" id="product-1" onclick="$('[id^=product-desc-]').hide(); $('#product-desc-1').show()">
-                            <div class="product-single">
+                                <a class="product-link" id="product-1" onclick="handleNav( 1 );">
+                                    <div class="product-single">
                                 <div class="product-nav-img">
                                         <img src="/img/newzirconia.png"></img>
                                 </div>
@@ -197,8 +221,8 @@
                             </div>
                         
                             <div class="col-sm-4">
-                                <a class="product-link" id="product-2" onclick="$('[id^=product-desc-]').hide(); $('#product-desc-2').show()">
-                            <div class="product-single">
+                                <a class="product-link" id="product-2" onclick="handleNav( 2 );">
+                                    <div class="product-single">
                                 <div class="product-nav-img">
                                         <img src="/img/implant.png"></img>
                                 </div>
@@ -211,8 +235,8 @@
                             </div>
                         
                             <div class="col-sm-4">
-                                <a class="product-link" id="product-3" onclick="$('[id^=product-desc-]').hide(); $('#product-desc-3').show()">
-                            <div class="product-single">
+                                <a class="product-link" id="product-3" onclick="handleNav( 3 );">
+                                    <div class="product-single">
                                 <div class="product-nav-img">
                                         <img src="/img/full_arch.png"></img>
                                 </div>
@@ -232,17 +256,16 @@
                                 <div class="heading">
                                     <h2> Crowns and Bridges </h2>
                                 </div>
-                                <p>Get the best of both worlds! Our super translucent zirconia has the strength of zirconia and an aesthetically pleasing translucency comparable to lithium disilicate. <br> <br> Super Translucent Zirconia: <ul> <li>Katana Multi Layered Zirconia 1100 MPa</li> <li>Katana Super Translucent ML 750 MPa</li> <li>Katana Ultra Translucent ML 550 MPa</li> </ul> <div class='product-img-container'> <img src='/img/products/zirc1.png'></img> <img src='/img/products/zirc2.jpg'></img> <img src='/img/products/zirc3.png'></img> </div></p>
+                                <p>Get the best of both worlds! Our super translucent zirconia has the strength of zirconia and an aesthetically pleasing translucency comparable to lithium disilicate. <br> <br> <div class='heading-sm'> <h4> Super Translucent Zirconia: </h4> </div> <ul> <li>Katana Multi Layered Zirconia 1100 MPa</li> <li>Katana Super Translucent ML 750 MPa</li> <li>Katana Ultra Translucent ML 550 MPa</li> </ul> <div class='product-img-container'> <img src='/img/products/zirc1.png'></img> <img src='/img/products/zirc2.jpg'></img> <img src='/img/products/zirc3.png'></img> </div></p>
                             </div>
                             
                             <div class="product-desc" id="product-desc-2">
                                 <div class="heading">
                                     <h2> Implants </h2>
                                 </div>
-                                <p>We fabricate our implant restorations with unparalleled fit and quality by integrating titanium and zirconia hybrid custom abutments into our design. <br> <div class='col-md-12'> <div class='heading-sm'> <h4> Custom Abutments </h4> </div> <div class='col-sm-4'> Titanium <img src='/img/products/titanium.png'></img> </div> <div class='col-sm-4'> Zirconia Hybrid <img src='/img/products/zirconiahybrid.png'></img> </div> <div class='col-sm-4'> Gold Hue <img src='/img/products/goldhue.png'></img> </div>
-</div> <div class='col-md-12'> <div class='heading-sm'> <h4> Izir Screw Retained Crowns </h4>
-<div class='col-sm-12'> <img src='/img/products/screw.png'></img> </div>
-</div> </div></p>
+                                <p>We fabricate our implant restorations with unparalleled fit and quality by integrating titanium and zirconia hybrid custom abutments into our design. <br> <div class='col-md-12'> <div class='heading-sm'> <h4> Custom Abutments </h4> </div> <div class='product-container'> <div class='col-sm-4'> Titanium <img src='/img/products/titanium.png'></img> </div> <div class='col-sm-4'> Zirconia Hybrid <img src='/img/products/zirconiahybrid.png'></img> </div> <div class='col-sm-4'> Anodized Titanium <img src='/img/products/goldhue.png'></img> </div> </div>
+</div> <div class='col-md-12' style='margin-top: 48px'> <div class='heading-sm'> <h4> Aura Screw Retained Zirconia Crowns and Bridges </h4> </div> </div> <div class='col-sm-12'> <img src='/img/products/screw.png'></img> <img src='/img/products/bridge.jpg'></img> </div>
+<div class='col-md-12' style='margin-top: 48px'> <div class='heading-sm'> <h4> Aura Cemented Zirconia Crowns and Bridges </h4> </div> </div> <div class='col-sm-12'> <img src='/img/products/screw.png'></img> <img src='/img/products/bridge.jpg'></img> </div></p>
                             </div>
                             
                             <div class="product-desc" id="product-desc-3">
@@ -251,8 +274,8 @@
                                 </div>
                                 <p>By working closely together with you, we are able to calibrate each case by implementing careful planning, thorough designing and precise fabrication creating a quality restoration that is second to none.</p>
 
-<div class='col-md-12'> <div class='heading-sm'> <h4> Izir Screw Retained Implant Bridge </h4> </div> Compatible with: <ul> <li>Nobel Replace 4.3 & 5.0</li> <li>Nobel Active 3.5 & 4.4/5.0</li> <li>Biomet 3i Certain 3.4 & 4.1</li> <li>Straumann Bone Level 3.3 & 4.1/4.8</li> <li>Straumann SynOcta 4.8 RN & 6.6 WN</li> <li>Zimmer Tapered Screw-Vent 3.5 & 4.5</li> <li>Astra Tech OsseoSpeed 3.5/4.0 & 4.5/5.0</li> <li>Dentsply- Friadent Frialit/Xive 3.4, 3.8 & 4.</li>
-</ul> <div class='arch-img'> <img src='/img/products/full_arch1.jpg'></img> </div> <div class='arch-img'> <img src='/img/products/full_arch2.jpg'></img> </div> <div class='arch-img'> <img src='/img/products/full_arch3.jpg'></img> </div>
+<div class='col-md-12'> <div class='heading-sm'> <h4> Izir Screw Retained Implant Bridge </h4> </div> <h4> Compatible with: </h4> <ul> <li>Nobel Replace 4.3 & 5.0</li> <li>Nobel Active 3.5 & 4.4/5.0</li> <li>Biomet 3i Certain 3.4 & 4.1</li> <li>Straumann Bone Level 3.3 & 4.1/4.8</li> <li>Straumann SynOcta 4.8 RN & 6.6 WN</li> <li>Zimmer Tapered Screw-Vent 3.5 & 4.5</li> <li>Astra Tech OsseoSpeed 3.5/4.0 & 4.5/5.0</li> <li>Dentsply- Friadent Frialit/Xive 3.4, 3.8 & 4.5</li>
+</ul> <div class='arch-img'> <img src='/img/products/full_arch1.jpg'></img> <img src='/img/products/full_arch2.png'></img> <img src='/img/products/full_arch3.png'></img> </div>
 </div> 
 </p>
                             </div>
@@ -276,11 +299,7 @@
 
         
         <div class="col-md-4 col-sm-6">
-            <h4>About us</h4>
-
-            We are Aura Dental Labs, we make great teeth things.
-
-            <hr class="hidden-md hidden-lg hidden-sm">
+            
 
         </div>
         
@@ -307,6 +326,8 @@
       </p>
       
 
+
+            <a href="/contact" class="btn btn-small btn-template-main">Go to contact page</a>
 
             <hr class="hidden-md hidden-lg hidden-sm">
 
@@ -360,6 +381,7 @@
 
 
 <script src="http://auradental.us/js/owl.carousel.min.js"></script>
+<script src="http://auradental.us/js/bootstrap-dropdownhover.min.js"></script>
 
 
   </body>

@@ -28,6 +28,7 @@
 
   
   <link href="http://auradental.us/css/animate.css" rel="stylesheet">
+  <link href="http://auradental.us/css/bootstrap-dropdownhover.min.css" rel="stylesheet">
 
   
   
@@ -70,7 +71,8 @@
 <div id="all">
     <header>
 
-        <div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
+        
+<div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
 
     <div class="navbar navbar-default yamm" role="navigation" id="navbar">
 
@@ -101,14 +103,14 @@
                   
                   <li class="dropdown">
                     
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+                      <a href="#" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false" data-hover="dropdown" data-animations="fadeIn">Products <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                       
-                        <li><a href="/products#crowns">Crowns and Bridges</a></li>
+                        <li><a href="/products#1">Crowns and Bridges</a></li>
                       
-                        <li><a href="/products#implants">Implants</a></li>
+                        <li><a href="/products#2">Implants</a></li>
                       
-                        <li><a href="/products#fullarch">Full Arch Restorations</a></li>
+                        <li><a href="/products#3">Full Arch Restorations</a></li>
                       
                     </ul>
                     
@@ -128,7 +130,7 @@
                   
                   <li class="dropdown">
                     
-                    <a href="https://803426.ddxdental.com/offer">DDX Login</a>
+                    <a href="https://803426.ddxdental.com/cases/new">DDX Login</a>
                     
                   </li>
                   
@@ -181,12 +183,17 @@
 
             <div class="row">
                 <div class="col-md-5">
-                    <div class="heading">
+                    <div class="cases-heading">
                         <h3>
                             Sign up for DDX
                         </h3>
-                            <a href="https://803426.ddxdental.com/offer" target="_blank">
+                             <a href="https://803426.ddxdental.com/offer" target="_blank">
                                 <img class="ddxblue" src="/img/ddx_blue.png"></img>
+                            </a>
+                        </div>
+                        <div class="ddx-button">
+                            <a href="https://803426.ddxdental.com/cases/new" target="_blank">
+                                <button class="btn btn-template-main">Login to DDX</button>
                             </a>
                         </div>
                 </div>
@@ -199,7 +206,7 @@
                     Request a starter package
                     </h3>
                     </div>
-                    <form action="https://formspree.io/tmkliu@gmail.com"
+                    <form action="https://formspree.io/leslie@auradental.us"
                         method="POST">
                         <div class="col-sm-12">
                         <div class="form-group">
@@ -311,7 +318,7 @@
                         </div>
 
                         <div class="col-sm-12 text-center">
-                        <input type="submit" class="btn btn-template-main" value="Request Materials">
+                        <input style="margin-top:20px;" type="submit" class="btn btn-template-main" value="Request Materials">
                         </div>
                         </form>
                     </div>
@@ -334,11 +341,7 @@
 
         
         <div class="col-md-4 col-sm-6">
-            <h4>About us</h4>
-
-            We are Aura Dental Labs, we make great teeth things.
-
-            <hr class="hidden-md hidden-lg hidden-sm">
+            
 
         </div>
         
@@ -365,6 +368,8 @@
       </p>
       
 
+
+            <a href="/contact" class="btn btn-small btn-template-main">Go to contact page</a>
 
             <hr class="hidden-md hidden-lg hidden-sm">
 
@@ -418,6 +423,7 @@
 
 
 <script src="http://auradental.us/js/owl.carousel.min.js"></script>
+<script src="http://auradental.us/js/bootstrap-dropdownhover.min.js"></script>
 
 
   </body>
