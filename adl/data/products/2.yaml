@@ -1,6 +1,6 @@
 weight: 2
 name: "Implants"
-link: "/products/2"
+link: "/products/#2"
 img: "/img/implant.png"
 text: "We fabricate our implant restorations with unparalleled fit and quality by integrating titanium and zirconia hybrid custom abutments into our design.
 <br>
@@ -35,7 +35,7 @@ Aura Screw Retained Zirconia Crowns and Bridges
 </div>
 <div class='col-sm-12'>
     <img src='/img/products/screw.png'></img>
-    <img src='/img/products/bridge.jpg'></img>
+    <img src='/img/products/bridge.png'></img>
 </div>
 
  <div class='col-md-12' style='margin-top: 48px'>
@@ -46,8 +46,8 @@ Aura Cemented Zirconia Crowns and Bridges
 </div>
 </div>
 <div class='col-sm-12'>
-    <img src='/img/products/screw.png'></img>
-    <img src='/img/products/bridge.jpg'></img>
+    <img src='/img/products/aura_screw.png'></img>
+    <img src='/img/products/screw_single.png'></img>
 </div>
 
        

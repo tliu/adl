@@ -11,21 +11,35 @@ keywords = ["About"]
 </div>
 <div>
 Our daily operations at Aura Dental Lab revolve around our three core values: 
-<ul>
-    <li>To produce consistently high quality restorations.</li>
-    <li>To excel in client satisfaction.</li>
-    <li>To constantly improve our products through innovation. </li>
-</ul>
 
-By implementing digital technology into our workflow, our certified dental technicians are able to use CAD/CAM to design and fabricate consistent and precise restorations. We are so confident that you will be satisfied with our work that we offer a LIFETIME GUARANTEE* for all of our restorations! If you are not completely satisfied with the quality of our work, just send it back and we will remake it absolutely free of charge! How’s that for a peace of mind? 
-
-
-To further ensure the quality of our restorations, we only use genuine and FDA approved materials and every element of production is made in the U.S.A. No offshoring, no importing and no guessing. 
-
-
-Nothing makes us happier than to see our clients satisfied with our restorations.  We look forward to working together with you on your next case! 
+<div class="heading-left">
+    <h4>
+    Quality
+    </h4>
 
 </div>
+
+Digital technology allows our certified dental technicians to design and fabricate consistent and precise restorations. We only use genuine and FDA compliant materials to ensure the quality of our products. Every step of production is made in the U.S.A.! No offshoring, no importing and no guessing what your restoration is made of. Every restoration must also pass a final quality check before it leaves our lab and gets delivered to you! 
+
+<div class="heading-left">
+    <h4>
+    Trust
+    </h4>
+
+</div>
+
+
+Your trust in our products is our goal. It is important to us that you have peace of mind whenever you use our services. We offer a LIFETIME GUARANTEE* for all of our restorations! 
+
+<div class="heading-left">
+    <h4>
+    Innovation
+    </h4>
+
+</div>
+
+We are continually researching new and upcoming technologies, materials and techniques so that we remain on the cutting edge of the industry, offering your practice innovative solutions. 
+
 <div id='remake'>
 
 <div class="heading-left">
